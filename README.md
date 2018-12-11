@@ -19,12 +19,15 @@ To hide the grid, make sure to comment out the following line in _index.html_:
 drawGrid();
 ```
 
-To control the size of the grid, override the _size_ variable, either by declaring it in _index.html_ or editing _canvasDrawJs.js_. For example: 
+To control the size of the grid, override the _size_ variable, either by re-declaring it in _index.html_ or editing _canvasDrawJs.js_. For example: 
 ```javascript
 var size = 40;
 ```
 
-To change the color of the grid, 
+To change the color of the grid, override the _gridColor_ variable, either by re-declaring it in _index.html_ or editing _canvasDrawJs.js_. For example
+```javascript
+var gridColor = "red";
+```
 
 ## More Info 
 * You may darw using any canvas methods as listed at the [W3Schools Canvas Refrence](https://www.w3schools.com/graphics/canvas_reference.asp) 
