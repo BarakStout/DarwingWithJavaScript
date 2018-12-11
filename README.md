@@ -19,6 +19,11 @@ To hide the grid, make sure to comment out the following line in _index.html_:
 drawGrid();
 ```
 
+To associate the grid with your canvas, make sure the variable __ is assigned the correct ID of your canvas, either by re-declaring it in _index.html_ or editing _canvasDrawJs.js_. For example: 
+```javascript
+var canvasID = "canvas"; 
+```
+
 To control the size of the grid, override the _size_ variable, either by re-declaring it in _index.html_ or editing _canvasDrawJs.js_. For example: 
 ```javascript
 var size = 40;
