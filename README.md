@@ -9,10 +9,10 @@ A JS Utility to make html canvas art
 
 ## Example Output
 After downloading the example, you should see the something similar to this: 
-![DrawingWithJavaScriptExample1](img/example1.png)
+![DrawingWithJavaScriptExample1](img/example1.PNG)
 
 To see the X,Y coordinates as you click the mouse, enable the console output. For example: 
-![DrawingWithJavaScriptExample1](img/example2.png)
+![DrawingWithJavaScriptExample1](img/example2.PNG)
 
 To hide the grid, make sure to comment out the following line in _index.html_: 
 ```javascript
