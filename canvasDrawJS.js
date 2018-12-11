@@ -9,6 +9,9 @@
 // size of the grid
 var size = 20;  
 
+// color of the grid
+var gridColor = "gray";
+
 // the canvas ID from the HTML protion
 var canvasID = "canvas"; 
 
@@ -39,9 +42,12 @@ function drawGrid()
 		context.lineTo(canvasWidth, x);
 	}
 
-	context.strokeStyle = "gray";
+	context.strokeStyle = gridColor;
 	context.stroke();
 	
+	
+	// go back to defualt color
+	context.strokeStyle = "black";
 }
 
 // --------------------- //
